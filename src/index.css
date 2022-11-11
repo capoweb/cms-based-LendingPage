@@ -1,0 +1,30 @@
+:root{
+  --theme-light-header: 'yellow';
+  --theme-dark-header: 'green';
+  --theme-neutral-header: 'orange';
+  --theme-default-header: var(--theme-neutral-header);
+
+  --theme-bg-light: radial-gradient(circle, #d84bc1, #ff4584, #ff7a3d, #f8b700, #a8eb12);
+  --theme-bg-dark:  radial-gradient(circle, #181328, #2c2055, #432c85, #5e38b8, #7d41ec);
+  --theme-bg-neutral:  radial-gradient(circle, #fae9cb, #f8d9b4, #f7c89f, #f8b68d, #f8a380);
+  --theme-bg-default: var(--theme-bg-neutral);
+}
+
+body {
+  margin-top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: var(--theme-bg-default);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
