@@ -12,7 +12,7 @@ const giphyApi = createApi({
     endpoints: (builder) => ({
         getTrendingGifs: builder.query<Gifs[], number>({
             query: (offset) => {
-                return `/trending?api_key=${API_KEY}&limit=7&offset=${
+                return `/trending?api_key=${API_KEY}&limit=14&offset=${
                     offset * 7
                 }&rating=g&bundle=messaging_non_clips`;
             },

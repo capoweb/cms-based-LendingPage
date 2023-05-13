@@ -11,15 +11,14 @@ export const RandomPage = () => {
 
     return (
         <>
-            <Stack spacing={2} sx={Wrapper}>
-                <Button variant='outlined' onClick={refetch}>
+        <br></br>
+            <Button variant='outlined' onClick={refetch}>
                     Update
                 </Button>
                 {isLoading && <p>Loading...</p>}
                 {gifs && !isLoading && (
                     <img src={gifs.images.downsized.url} alt='picture' />
                 )}
-            </Stack>
         </>
     );
 };

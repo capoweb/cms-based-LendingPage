@@ -6,7 +6,12 @@ import { Link } from 'react-router-dom';
 
 export function NavigationButtons() {
     return (
-        <Stack spacing={2} direction='row'>
+        <Stack
+            direction='row'
+            flexWrap='wrap'
+            justifyContent='center'
+            gap='18px'
+        >
             <Link to='/find_gifs'>
                 <Button variant='outlined'>Trends</Button>
             </Link>
