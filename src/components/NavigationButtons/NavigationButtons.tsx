@@ -12,7 +12,7 @@ export function NavigationButtons() {
             justifyContent='center'
             gap='18px'
         >
-            <Link to='/find_gifs'>
+            <Link to='/Gifs-search'>
                 <Button variant='outlined'>Trends</Button>
             </Link>
             <Link to='/search'>

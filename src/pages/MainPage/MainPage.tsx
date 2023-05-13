@@ -15,7 +15,7 @@ export const MainPage = () => {
                 <Wrapper>
                     <NavigationButtons />
                     <Routes>
-                        <Route path='/find_gifs' element={<TrendsPage />} />
+                        <Route path='/Gifs-search' element={<TrendsPage />} />
                         <Route path='/search' element={<SearchPage />} />
                         <Route path='/random' element={<RandomPage />} />
                         <Route path='/settings' element={<SettingsPage />} />

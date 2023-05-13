@@ -15,6 +15,7 @@ export const RandomPage = () => {
             <Button variant='outlined' onClick={refetch}>
                     Update
                 </Button>
+                <br></br>
                 {isLoading && <p>Loading...</p>}
                 {gifs && !isLoading && (
                     <img src={gifs.images.downsized.url} alt='picture' />
