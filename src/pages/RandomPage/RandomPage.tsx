@@ -12,7 +12,7 @@ export const RandomPage = () => {
     return (
         <>
         <br></br>
-            <Button variant='outlined' onClick={refetch}>
+            <Button variant='outlined' onClick={refetch} style={{ color: 'white', borderColor: 'white' }}>
                     Update
                 </Button>
                 <br></br>

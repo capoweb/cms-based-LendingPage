@@ -12,17 +12,17 @@ export function NavigationButtons() {
             justifyContent='center'
             gap='18px'
         >
-            <Link to='/Gifs-search'>
-                <Button variant='outlined'>Trends</Button>
+            <Link to='/Gifs-search' >
+                <Button variant='outlined' style={{ color: 'white', borderColor: 'white' }}>Trends</Button>
             </Link>
             <Link to='/search'>
-                <Button variant='outlined'>Search</Button>
+                <Button variant='outlined' style={{ color: 'white', borderColor: 'white' }}>Search</Button>
             </Link>
             <Link to='/random'>
-                <Button variant='outlined'>Random</Button>
+                <Button variant='outlined' style={{ color: 'white', borderColor: 'white' }}>Random</Button>
             </Link>
             <Link to='/settings'>
-                <Button variant='outlined'>Settings</Button>
+                <Button variant='outlined' style={{ color: 'white', borderColor: 'white' }}>Settings</Button>
             </Link>
         </Stack>
     );
