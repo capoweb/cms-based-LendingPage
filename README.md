@@ -14,7 +14,9 @@ ___
 ### Technologies:
 - Material UI
 - styled-components
-- react-router
+- Public API
+- Redux Toolkit
+- Typescript
 - React
 ## Screenshots of the Project :camera:
 <p align="center">
