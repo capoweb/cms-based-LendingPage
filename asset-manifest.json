@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gifs-search/static/css/main.4ababae1.css",
+    "main.js": "/Gifs-search/static/js/main.d13092d2.js",
+    "index.html": "/Gifs-search/index.html",
+    "main.4ababae1.css.map": "/Gifs-search/static/css/main.4ababae1.css.map",
+    "main.d13092d2.js.map": "/Gifs-search/static/js/main.d13092d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ababae1.css",
+    "static/js/main.d13092d2.js"
+  ]
+}
